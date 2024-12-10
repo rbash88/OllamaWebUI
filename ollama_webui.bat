@@ -8,6 +8,7 @@ set OLLAMA_HOST=http://localhost:11434
 
 echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 echo Проверка зависимостей Python, Ollama, Open-Webui
+:: Проверка наличия Python
 where python >nul 2>&1
 if %errorlevel% neq 0 (
     echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
